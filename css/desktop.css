@@ -1,0 +1,135 @@
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 1160px;
+    }
+
+
+                        /*hero*/
+.hero{
+    max-width: 1440px;
+    height: 600px;
+    padding-top: 188px;
+    padding-bottom: 188px;
+}
+.hero-title{
+    margin-bottom: 48px;
+}
+
+
+
+
+                        /*skills*/
+.skills{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.skills-list {
+    gap: 24px;
+}
+.skills-item {
+    max-width: 264px;
+}
+.skills-icon {
+    display: flex;
+    height: 112px;
+    background-color: var(--portfolio-button-bg-color);
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.skills-icon-symbol {
+    width: 64px;
+    height: 64px;
+}
+.skills-item-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+
+                     /*examples*/
+.examples {
+    display: block;
+    padding-top: 0;
+    padding-bottom: 120px;
+}
+
+.examples-list {
+    display: flex;
+}
+
+.examples-item:not(:last-child) {
+    margin-right: 24px;
+}
+
+.examples-title {
+    margin-bottom: 72px;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+
+
+                        /*team*/
+.team {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+
+                        /*customers*/
+.customers {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.customers-list{
+    flex-wrap: nowrap;
+    gap: 24px;
+}
+.customers-item{
+    width: calc((100%-120px)/6);
+}
+
+
+
+                        /*footer*/
+.footer{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.footer-cont{
+    flex-wrap: nowrap;
+    padding-left: 16px;
+    gap: 80px;
+}
+.footer-container{
+    margin-right: 40px;
+}
+.footer-form{
+    width: 453px;
+}
+
+
+                /*portfolio*/
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 48px;
+    /*column-gap: 21px;*/
+}
+.portfolio-item {
+    flex-basis: calc((100%-(2*24px))/3);
+    /*width: 360px;*/
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    background: var(--main-bg-color);
+}
+.portfolio-item:nth-child(3n) {
+    margin-right: 0;
+}
+}
