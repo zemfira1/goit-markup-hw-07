@@ -39,7 +39,9 @@
 .menu-open{
     display: none;
 }
-
+.menu{
+    display: none;
+}
 
                     /*hero*/
     .hero {
