@@ -76,6 +76,18 @@ img{
 .no-scroll{
     overflow: hidden;
 }
+.is-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 .logo {
     display: block;
     padding: 24px 0;
@@ -208,6 +220,11 @@ img{
     background-color: var(--main-bg-color);
     padding: 40px;
     z-index: 1;
+    transform: scale(1);
+    transition: transform 250ms var(--function-for-hover);
+}
+.menu.is-hidden{
+    transform: scale(0.1);
 }
 .menu-conteiner{
     position: relative;
@@ -741,19 +758,6 @@ img{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-}
-
-.hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
 }
 
 .backdrop{
