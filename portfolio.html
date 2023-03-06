@@ -81,6 +81,91 @@
           </svg>
         </button>
       </div>
+      <div data-menu class="menu is-hidden">
+        <div class="menu-conteiner">
+          <div>
+            <button data-menu-close type="button" class="menu-close">
+              <svg class="menu-close-icon" width="8" height="8">
+                <use href="./images/icons.svg#icon-close-modal"></use>
+              </svg>
+            </button>
+            <ul class="menu-site-list list">
+              <li class="menu-site-item">
+                <a href="./index.html" class="menu-site-link link">Studio</a>
+              </li>
+              <li class="menu-site-item">
+                <a href="./portfolio.html" class="menu-site-link link"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="menu-site-item">
+                <a href="" class="menu-site-link current-site link">Contacts</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <ul class="menu-address-list list">
+              <li class="menu-telef">
+                <a
+                  href="tel:+110001111111"
+                  class="menu-telef-link current-address link"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li class="menu-email">
+                <a href="mailto:info@devstudio.com" class="menu-email-link link"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+
+            <ul class="menu-list list">
+              <li class="menu-item instagram">
+                <a
+                  href=""
+                  class="menu-link link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <svg class="menu-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="menu-item twitter">
+                <a
+                  href=""
+                  class="menu-link link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><svg class="menu-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-twitter"></use></svg
+                ></a>
+              </li>
+              <li class="menu-item facebook">
+                <a
+                  href=""
+                  class="menu-link link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><svg class="menu-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-facebook"></use></svg
+                ></a>
+              </li>
+              <li class="menu-item linkedin">
+                <a
+                  href=""
+                  class="menu-link link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><svg class="menu-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-linkedin"></use></svg
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </header>
 
     <!--Main part-->
@@ -88,7 +173,7 @@
       <section class="portfolio section">
         <div class="container">
           <!--Временный заголовок-->
-          <h1 class="hidden">Portfolio navigation</h1>
+          <h1 class="is-hidden">Portfolio navigation</h1>
 
           <ul class="portfolio-navigation-list list">
             <li class="portfolio-navigation-item">
@@ -630,5 +715,6 @@
         </div>
       </div>
     </footer>
+    <script src="./js/menu.js"></script>
   </body>
 </html>

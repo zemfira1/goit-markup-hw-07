@@ -221,10 +221,15 @@ img{
     padding: 40px;
     z-index: 1;
     transform: scale(1);
-    transition: transform 250ms var(--function-for-hover);
+    opacity: 1;
+    transition: transform 250ms var(--function-for-hover),
+        opacity 250ms var(--function-for-hover),
+        visibility 250ms var(--function-for-hover);
 }
 .menu.is-hidden{
     transform: scale(0.1);
+    visibility:hidden;
+    opacity: 0;
 }
 .menu-conteiner{
     position: relative;
